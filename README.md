@@ -50,6 +50,21 @@ Below is a list of all of the things you can change in the *config.ini* file.
 
 ***
 
+### CLASS
+This is the class you are currently playing. This option must be changed in order for armor to dismantle correctly.
+As with any other change to this .ini file, remember to restart the program.
+Changing this option is as simple as replacing the current class name after the "CLASS=" with the desired class.
+
+* **Note:** This is case sensitive, so all class names must be entered in lowercase.
+
+***
+
+### WINDOWED
+This setting accounts for oddities in window resolution when playing in Windowed mode.
+By default, the program assumes you are not in windowed mode. If you are, change this option from 0 to 1.
+
+***
+
 #### INVENTORY_SHORTCUT
 The shortcut keystroke used to trigger this script to dismantle blues while in the character menu.  
 To change this setting, you must use one (or more) recognized key codes and write them *exactly* as they appear in the table below.  
