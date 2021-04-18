@@ -5,6 +5,13 @@ Most avid fans of Destiny 2 will know that once your character reaches a certain
 
 This lightweight script allows Destiny 2 players to automatically dismantle any and all blues on their character or in their postmaster through a single, customizable keyboard shortcut. Before you can cleanse yourself of blues forever, though, please read the following information about how to use and customize this script.  
 
+#### Downloading and using the script
+To run this script, you will need 2 files:
+* The *Blue Dismantler.exe* executable.
+* The *config.ini* file (nested in a folder named config)  
+
+If you do not have a config file when you run the executable or if the config file is mislabled or in the wrong directory, a new *config.ini* file will be created for you in the correct directory with default values. The script also generates a readme.md file if one is not found.
+
 ### Copyright
 *Copyright (C) 2021 Pedro Torres*  
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.   You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>.
