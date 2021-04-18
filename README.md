@@ -28,11 +28,11 @@ Press CTRL+X (by default) to stop the dismantling process once it has started.
 Press CTRL+Q to terminate the script.  
 
 These shortcuts can be customized using the *config.ini* file found in the config folder in the *Blue Dismantler.exe* directory. If no such folder exists, simply run the executable once and a new folder and *.ini* file should be created in the same folder as the executable.  
-Check the [Customization] section of this readme for more information.
+Check the [Customization](https://github.com/Shy-16/Dismantler#customization) section of this readme for more information.
 
 ### Limitations
 The Blue Dismantler script dismantles **all** blues in your character menu or postmaster. It is designed to work when these menus are already open even though the dismantle functions can be triggered outside of those menus. If this happens accidentally, you can stop the script manually or close the script using the *STOP_DISMANTLING* and *TERMINATE_SCRIPT* shortcuts respectively.  
-See the [How to Use] section of this readme for more details.  
+See the [How to Use](https://github.com/Shy-16/Dismantler#how-to-use) section of this readme for more details.  
 
 The Dismantler does **not** dismantle blues that are currently equipped on your character.  
 If you have any blues you want to keep safe, either equip them temporarily, lock them, or move them to your vault.  
@@ -44,7 +44,7 @@ The Blue Dismantler executable should come with an accompanying configuration fi
 This file can be found in the config folder that is distributed with the Blue Dismantler executable. If this folder doesn't exist, simply run the executable once and a new folder containing a default config file should be created for you. Before making any changes, though, remember to:  
 * Close any isnstances of the script before making any modifications to the config file.  
 * You must leave no spaces between the name of the setting you are changing, the "=" separating the name and the chosen setting, and the setting you choosing.  
-  * Example: To change the *INVENTORY_SHORTCUT* setting to CTRL+D instead of the default CTRL+I, that line in the file must be written as "INVENTORY_SHORTCUT=^D". Check [INVENTORY_SHORTCUT] for a table of the codes used to represet modifier keys.
+  * Example: To change the *INVENTORY_SHORTCUT* setting to CTRL+D instead of the default CTRL+I, that line in the file must be written as "INVENTORY_SHORTCUT=^D". Check [INVENTORY_SHORTCUT](https://github.com/Shy-16/Dismantler#inventory_shortcut) for a table of the codes used to represet modifier keys.
 
 Below is a list of all of the things you can change in the *config.ini* file.  
 
@@ -82,7 +82,7 @@ Default
 
 #### STOP_DISMANTLING  
 The shortcut keystroke used to stop the script while it is in the process of dismantling items.  
-To change this setting, you must use one of the recognized key codes and write them **Exactly** as they appear in the key code table found in [INVENTORY_SHORTCUT].  
+To change this setting, you must use one of the recognized key codes and write them **Exactly** as they appear in the key code table found in [INVENTORY_SHORTCUT](https://github.com/Shy-16/Dismantler#inventory_shortcut).  
 * **Note:** Numberpad keys only function when the NumLock function of your keyboard is toggled on. Only the numeric numberpad keys are supported.  
 
 Default
@@ -94,7 +94,7 @@ Default
 
 #### TERMINATE_SCRIPT  
 The shortcut keystroke used to terminate the Blue Dismantler script.  
-To change this setting, you must use one of the recognized key codes and write them **Exactly** as they appear in the key code table found in [INVENTORY_SHORTCUT].  
+To change this setting, you must use one of the recognized key codes and write them **Exactly** as they appear in the key code table found in [INVENTORY_SHORTCUT](https://github.com/Shy-16/Dismantler#inventory_shortcut).  
 * **Note:** Numberpad keys only function when the NumLock function of your keyboard is toggled on. Only the numeric numberpad keys are supported.  
 
 Default
