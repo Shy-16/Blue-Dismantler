@@ -59,20 +59,20 @@ To change this setting, you must use one (or more) recognized key codes and writ
 To combine more than one key in a custom keystroke, write them in one long string; do **not** separate key codes with spaces or any other character. The symbols for alpha-numeric keys do not require special coded characters; they can simply be entered as is.  
 * **Note:** Numberpad keys only function when the Num function of your keyboard is toggled on.
 
-| KEY CODES                        |
-| :---          |:----:            |
-| *Key Name*    | *Code*           |
-| Number Pad    |Numbpad1-Numbpad0 |
-| Function keys |F1-F24            |
-| Control       |^                 |
-| Shift         |+                 |
-| Alt           |!                 |
-| Windows key   |#                 |
+KEY CODES
+------------- | ----------------
+*Key Name*    | *Code*
+Number Pad    | Numbpad1-Numbpad0
+Function keys | F1-F24
+Control       | ^
+Shift         | +
+Alt           | !
+Windows key   | #
 
-| Default               |
-| :---    | :---        |
-| *Code*  | *Keystroke* |
-| ^I      | CTRL+I      |
+Default
+------- | ------------
+*Code*  | *Keystroke*
+^I      | CTRL+I
 
 **Example:** To set your keyboard shortcut to Shift+Alt+A, you would write "*+!A*" (without the quotation marks).
 
@@ -85,10 +85,10 @@ The shortcut keystroke used to stop the script while it is in the process of dis
 To change this setting, you must use one of the recognized key codes and write them **Exactly** as they appear in the key code table found in [INVENTORY_SHORTCUT].  
 * **Note:** Numberpad keys only function when the NumLock function of your keyboard is toggled on. Only the numeric numberpad keys are supported.  
 
-| Default               |
-| :---    | :---        |
-| *Code*  | *Keystroke* |
-| ^X      | CTRL+X      |
+Default
+------- | ------------
+*Code*  | *Keystroke*
+^X      | CTRL+X
 
 ***
 
@@ -97,23 +97,23 @@ The shortcut keystroke used to terminate the Blue Dismantler script.
 To change this setting, you must use one of the recognized key codes and write them **Exactly** as they appear in the key code table found in [INVENTORY_SHORTCUT].  
 * **Note:** Numberpad keys only function when the NumLock function of your keyboard is toggled on. Only the numeric numberpad keys are supported.  
 
-| Default               |
-| :---    | :---        |
-| *Code*  | *Keystroke* |
-| ^Q      | CTRL+Q      |
+Default
+------- | ------------
+*Code*  | *Keystroke*
+^Q      | CTRL+Q
 
 ***
 
 ### COLORBLIND_MODE  
 Whether or not you are using a colorblind mode in game.  
 
-| Options                                                                                  |
-| :---           | :---                                                                    |
-| Option string  | Description                                                             |
-| 0              | Use this option when not using a colorblind mode in Destiny             |
-| deut           | Use this option when using the Deuteranopia (red-green) colorblind mode |
-| pro            | Use this option when using the Protanopia (red-green) colorblind mode   |
-| tri            | Use this option when using the Tritanopia (yellow-blue) colorblind mode |
+Options
+-------------- | -----------------------------------------------------------------------
+Option string  | Description
+0              | Use this option when not using a colorblind mode in Destiny
+deut           | Use this option when using the Deuteranopia (red-green) colorblind mode
+pro            | Use this option when using the Protanopia (red-green) colorblind mode
+tri            | Use this option when using the Tritanopia (yellow-blue) colorblind mode
 
 ***
 
