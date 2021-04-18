@@ -54,7 +54,7 @@ configPath := A_ScriptDir "\config\config.ini"
 
 ; Checks for dependancies and create them if they're not found
 FileInstall, config\config.ini, configPath    ; Used for building executable
-FileInstall, README.txt, %A_ScriptDir%
+FileInstall, README.md, %A_ScriptDir%
 
 if !FileExist(configPath)
 {
